@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3522620-e464-497e-b943-04aaa4273cd6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
+    <list default="true" id="f3522620-e464-497e-b943-04aaa4273cd6" name="Changes" comment="Created basic board and its tiles with color, colors are subject to change">
+      <change afterPath="$PROJECT_DIR$/src/Pieces/Bishop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pieces/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pieces/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pieces/Pawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pieces/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pieces/Queen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pieces/Rook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/Pieces.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Board.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,23 +35,30 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2f6XswDmN8EgigOFg2b8Mg07AC0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\towbo\OneDrive\Desktop\Universe\SCHOOL\Chess\src\resources" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,8 +67,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713122713847</updated>
-      <workItem from="1713122715429" duration="1819000" />
+      <workItem from="1713122715429" duration="1945000" />
+      <workItem from="1713401196440" duration="617000" />
+      <workItem from="1713486906485" duration="3763000" />
     </task>
+    <task id="LOCAL-00001" summary="Created basic board and its tiles with color, colors are subject to change">
+      <created>1713124604613</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713124604613</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,5 +94,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created basic board and its tiles with color, colors are subject to change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created basic board and its tiles with color, colors are subject to change" />
   </component>
 </project>
