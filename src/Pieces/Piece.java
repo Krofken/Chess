@@ -38,5 +38,5 @@ public class Piece {
     }
 
     public boolean isValidMovement(int col, int row) {return true;};
-    public boolean moveCollideWithPieces(int col, int row) {return false;};
+    public boolean moveCollidesWithPieces(int col, int row) {return false;};
 }
