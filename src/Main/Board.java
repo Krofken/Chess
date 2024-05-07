@@ -28,7 +28,7 @@ public class Board extends JPanel {
 
     public Piece getPiece(int columns, int rolls){
         for (Piece piece : pieceList){
-            if(piece.column==columns&&piece.row==rolls){
+            if(piece.col ==columns&&piece.row==rolls){
                 return piece;
             }
         }
@@ -36,10 +36,11 @@ public class Board extends JPanel {
     }
 
     public void makeMove(Move move){
-        move.piece.column = move.newCol;
+        move.piece.col = move.newCol;
         move.piece.row= move.newRow;
         move.piece.xPos = move.newCol * tileSize;
         move.piece.yPos = move.newRow * tileSize;
+        move.piece.isFirstMove= false;
         capture(move);
     }
 
@@ -109,7 +110,7 @@ public class Board extends JPanel {
         //Paint the board
         for (int r = 0; r < row; r++) {
             for (int c = 0; c < column; c++) {
-                g2d.setColor((c + r) % 2 == 0 ? new Color(133, 49, 49, 255) : new Color(175, 81, 81));
+                g2d.setColor((c + r) % 2 == 0 ? new Color(150, 53, 53, 255) : new Color(175, 81, 81));
                 g2d.fillRect(c * tileSize, r * tileSize, tileSize, tileSize);
             }
         }

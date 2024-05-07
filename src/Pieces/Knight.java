@@ -3,12 +3,11 @@ package Pieces;
 import Main.Board;
 
 import java.awt.image.BufferedImage;
-import java.nio.Buffer;
 
 public class Knight extends Piece{
     public Knight (Board board, int column, int row, boolean isWhite){
         super(board);
-        this.column= column;
+        this.col = column;
         this.row= row;
         this.xPos = column* board.tileSize;
         this.yPos = row* board.tileSize;
@@ -19,6 +18,6 @@ public class Knight extends Piece{
 
     }
     public boolean isValidMovement(int col, int row){
-        return Math.abs(col - this.column) * Math.abs(row - this.row)==2;
+        return Math.abs(col - this.col) * Math.abs(row - this.row)==2;
     }
 }

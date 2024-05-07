@@ -7,7 +7,7 @@ import java.awt.image.BufferedImage;
 public class Rook extends Piece{
     public Rook(Board board, int column, int row, boolean isWhite){
         super(board);
-        this.column= column;
+        this.col = column;
         this.row= row;
         this.xPos = column* board.tileSize;
         this.yPos = row* board.tileSize;
@@ -18,20 +18,20 @@ public class Rook extends Piece{
 
     }
     public boolean isValidMovement(int col, int row){
-        return this.column == col || this.row == row;
+        return this.col == col || this.row == row;
     }
     public boolean moveCollidesWithPieces(int col, int row){
         //left
-        if (this.column > col){
-            for (int c = this.column -1 ; c > col; c--){
+        if (this.col > col){
+            for (int c = this.col -1; c > col; c--){
                 if (board.getPiece(c,this.row)!=null){
                     return true;
                 }
             }
         }
         //right
-        if (this.column < col){
-            for (int c = this.column + 1 ; c < col; c++){
+        if (this.col < col){
+            for (int c = this.col + 1; c < col; c++){
                 if (board.getPiece(c,this.row)!=null){
                     return true;
                 }
@@ -40,7 +40,7 @@ public class Rook extends Piece{
         //left
         if (this.row > row){
             for (int r = this.row -1 ; r > row; r--){
-                if (board.getPiece(this.column, r)!=null){
+                if (board.getPiece(this.col, r)!=null){
                     return true;
                 }
             }
@@ -48,7 +48,7 @@ public class Rook extends Piece{
         //right
         if (this.row < row){
             for (int r = this.row + 1 ; r < row; r++){
-                if (board.getPiece(this.column,r)!=null){
+                if (board.getPiece(this.col,r)!=null){
                     return true;
                 }
             }

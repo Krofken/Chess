@@ -8,12 +8,13 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 
 public class Piece {
-    public int column, row;
+    public int col, row;
     public int xPos, yPos;
 
     public boolean isWhite;
     public String name;
     public int value;
+    public boolean isFirstMove;
 
     BufferedImage sheet;
     {

@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3522620-e464-497e-b943-04aaa4273cd6" name="Changes" comment="Created basic board and its tiles with color, colors are subject to change">
-      <change afterPath="$PROJECT_DIR$/src/Pieces/Bishop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pieces/King.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pieces/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pieces/Pawn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pieces/Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pieces/Queen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pieces/Rook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/Pieces.png" afterDir="false" />
+    <list default="true" id="f3522620-e464-497e-b943-04aaa4273cd6" name="Changes" comment="implemented collision behaviour for bishop, rook, knight and Queen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pieces/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pieces/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pieces/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pieces/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pieces/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pieces/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pieces/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pieces/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pieces/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pieces/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pieces/Rook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,13 @@
       <updated>1713122713847</updated>
       <workItem from="1713122715429" duration="1945000" />
       <workItem from="1713401196440" duration="617000" />
-      <workItem from="1713486906485" duration="3763000" />
+      <workItem from="1713486906485" duration="4436000" />
+      <workItem from="1713807056252" duration="11428000" />
+      <workItem from="1713894639589" duration="3373000" />
+      <workItem from="1713981362077" duration="2891000" />
+      <workItem from="1713991325114" duration="1057000" />
+      <workItem from="1715109730607" duration="7000" />
+      <workItem from="1715113425691" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="Created basic board and its tiles with color, colors are subject to change">
       <created>1713124604613</created>
@@ -78,7 +85,28 @@
       <option name="project" value="LOCAL" />
       <updated>1713124604613</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implemented skeleton for the piece class and placed them on the board accordingly">
+      <created>1713491539966</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713491539966</updated>
+    </task>
+    <task id="LOCAL-00003" summary="did a lot of things but forgot to keep a list">
+      <created>1713814509378</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713814509378</updated>
+    </task>
+    <task id="LOCAL-00004" summary="implemented collision behaviour for bishop, rook, knight and Queen">
+      <created>1713818294453</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713818294453</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +125,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created basic board and its tiles with color, colors are subject to change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created basic board and its tiles with color, colors are subject to change" />
+    <MESSAGE value="Implemented skeleton for the piece class and placed them on the board accordingly" />
+    <MESSAGE value="did a lot of things but forgot to keep a list" />
+    <MESSAGE value="implemented collision behaviour for bishop, rook, knight and Queen" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented collision behaviour for bishop, rook, knight and Queen" />
   </component>
 </project>

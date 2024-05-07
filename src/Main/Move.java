@@ -14,7 +14,7 @@ public class Move {
 
     public Move(Board board, Piece piece, int newCol, int newRow){
 
-        this.oldCol= piece.column;
+        this.oldCol= piece.col;
         this.oldRow= piece.row;
         this.newCol= newCol;
         this.newRow= newRow;
